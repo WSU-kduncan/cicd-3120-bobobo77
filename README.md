@@ -45,5 +45,5 @@ After that, each secret needed a name and the values put in.
 
 #### Github actions
 I think I need more practice with this portion of the project, as using the template doesn't feel intuitive, and
-every resource formats it slightly differently. 
+every resource formats it slightly differently. Also, I have no information on how to tell if my image got built properly. (probably not)
 
