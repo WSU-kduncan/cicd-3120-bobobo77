@@ -2,7 +2,7 @@
 cicd-3120-bobobo77 created by GitHub Classroom
 This is the README to the website for my 5th project. 
 
-####Setting up WSL 2 and Docker:
+#### Setting up WSL 2 and Docker:
 
 _Due to impetuousness and lack of use, I was using my github desktop to do my editing of my project._
 _I had not realized until attempting to dockerize my website that WSL 2 was not running on the Desktop_
@@ -14,7 +14,7 @@ Setting up WSL 2 was probably the biggest hurdle for this stage, but getting my 
 I had foundation already set, and docker pull httpd is the container I needed. ```Docker pull``` was also a lifesaver for
 being the command to request containers from the Docker server. 
 
-####Docker Build:
+#### Docker Build:
 
 the Dockerfile is the critical part of this section. You need the 
 	```FROM [publisher]```
@@ -33,3 +33,17 @@ to properly build the container.
 
 After creating the container, I used the Docker desktop application to immediately go to the site via the first button on the left 
 that says "open in browser"
+
+#### Making a public repository
+This was pretty easy after logging into Dockerhub. I just clicked on Repositories and "New repository". I then proceeded
+to give it a name and I now had an empty container to fill. 
+
+#### Dockerhub authentication
+To authenticate Dockerhub, I set up a github secret with a unique key and the username so the 2 are sort of linked.
+I found making Github secrets not too hard to do, overall. I clicked on Settings, then on secrets on the drop-down menu.
+After that, each secret needed a name and the values put in.
+
+#### Github actions
+I think I need more practice with this portion of the project, as using the template doesn't feel intuitive, and
+every resource formats it slightly differently. 
+
